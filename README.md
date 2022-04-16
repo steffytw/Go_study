@@ -2,6 +2,17 @@
 
 Go is a statically typed, compiled programming language designed at Google by **Robert Griesemer**, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
+## Basic structure
+
+A Go program basically consists of the following parts −
+
+- Package Declaration
+- Import Packages
+- Functions
+- Variables
+- Statements and Expressions
+- Comments
+
 ```
 package main
 
