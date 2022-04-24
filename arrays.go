@@ -18,6 +18,7 @@ func main() {
 	fmt.Println(array_1) // [1 2 3 4 5]
 
 	array_1[0] = 10
+	fmt.Println(array_1) // [10 2 3 4 5]
 
 	fmt.Println(array_1[0])   // 10
 	fmt.Println(array_2)      // [11 0 0 0 0]
