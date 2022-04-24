@@ -7,7 +7,7 @@ func main() {
 	var i, j = 10, 20.00
 
 	/*
-		The Print() Function:
+		Print() Function:
 
 			The Print() function prints its arguments with their default format.
 	*/
@@ -26,7 +26,7 @@ func main() {
 	fmt.Print("\n")
 
 	/*
-		The Println() Function :
+		Println() Function :
 
 			The Println() function is similar to Print() with the difference
 			that a whitespace is added between the arguments, and a newline is added at the end.
@@ -35,7 +35,7 @@ func main() {
 	fmt.Println("Println : ", a, b)
 
 	/*
-		The Printf() Function:
+		Printf() Function:
 
 			The Printf() function first formats its argument based on the given formatting
 			verb and then prints them. Here we will use two formatting verbs:

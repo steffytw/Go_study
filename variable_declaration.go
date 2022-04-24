@@ -5,11 +5,11 @@ import (
 )
 
 func main() {
-	var student1 string = "John" //type is string
-	var student2 = "Jane"        //type is inferred
-	x := 2                       //type is inferred
+	var name string = "John" //type is string
+	var car = "BMW"          //type is inferred
+	x := 2                   //type is inferred
 
-	fmt.Println(student1)
-	fmt.Println(student2)
+	fmt.Println(name)
+	fmt.Println(car)
 	fmt.Println(x)
 }
