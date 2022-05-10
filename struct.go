@@ -25,15 +25,19 @@ func main() {
 					A struct (short for structure) is used to create a
 		 			collection of members of different data types, into a single variable.
 	*/
-	var p Person
+	var person1 Person
 
-	p.name = "Ravi"
-	p.age = 23
-	p.job = "Teacher"
-	p.salary = 4000
+	person2 := Person{name: "Raveena", age: 35, job: "Actress", salary: 1000000}
 
-	fmt.Println(p.name) //Ravi
+	person1.name = "Ravi"
+	person1.age = 23
+	person1.job = "Teacher"
+	person1.salary = 4000
 
-	// Print Pers1 info by calling a function
-	printPerson(p)
+	fmt.Println(person1.name) //Ravi
+
+	// Print Person1 info by calling a function
+	printPerson(person1)
+	printPerson(person2)
+
 }
