@@ -28,6 +28,8 @@ func main() {
 	fmt.Println(slice_2)      //[Slices are powerful and flexible]
 	fmt.Println(len(slice_2)) //5
 	fmt.Println(cap(slice_2)) //5
+	slice_2 = append(slice_2, "!")
+	fmt.Println(slice_2) //[Slices are powerful and flexible !]
 
 	//Create a Slice From an Array:
 
