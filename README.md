@@ -41,3 +41,11 @@ The Go language reserve two functions for special purpose and the functions are 
 - You are allowed to create init() function anywhere in the program and they are called in lexical file name order (Alphabetical Order). 
 - And allowed to put statements if the init() function, but always remember to init() function is executed before the main() function call, so it does not depend to main() function. 
 - The main purpose of the init() function is to initialize the global variables that cannot be initialized in the global context.
+
+## Package
+
+Package can be of two types.
+
+- *Executable package* – Only main is the executable package in GoLang. A .go file might belong to the main package present within a specific directory. We will see later how the directory name or the .go file name matters.  The main package will contain a main function that denotes the start of a program. On installing the main package it will create an executable in the $GOBIN directory.
+
+- *Utility package*– Any package other than the main package is a utility package. It is not self-executable. It just contains the utility function and other utility things that can be utilized by an executable package.
