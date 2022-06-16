@@ -5,12 +5,11 @@ import (
 	"os"
 )
 
-func main() {
-	file, err := os.Open("non-existing.txt")
-	fmt.Println(file)
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println(file.Name() + "opened succesfully")
+func main(){
+	file,err := os.Open("test.txt")
+	if err != nil{
+		fmt.Println("File doesn't Exist")
+	}else{
+		fmt.Println(file.Name()+ " opened successfully!")
 	}
 }
