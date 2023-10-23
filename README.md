@@ -4,6 +4,7 @@ Go is a statically typed, compiled programming language designed at Google by **
 
 ## Basic structure
 
+
 A Go program basically consists of the following parts −
 
 - Package Declaration
