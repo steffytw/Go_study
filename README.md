@@ -1,6 +1,68 @@
 # Go
 
 Go is a statically typed, compiled programming language designed at Google by **Robert Griesemer**, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+- Go is a statically typed, compiled programming language designed at Google by **Robert Griesemer**, Rob Pike, and Ken Thompson.
+- IT is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.
+- It is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+
+## Characteristics of go
+- `Simple and readable` syntax like dynamically typed programming language like python
+- `Efficency and safety` of a lower-level language, staically typed language like C++
+- Fast build time, start up and run
+- Requires fewer resources like cpu and ram to run
+- Compiler into simple binary(machine code)
+- Faster than interpreter language like python
+- Consistent across diffrent OS
+
+## Commands in go
+
+```
+steffytw@steffytw-HP-240-G7-Notebook-PC:~ $go
+Go is a tool for managing Go source code.
+Usage:
+	go <command> [arguments]
+The commands are:
+	bug         start a bug report
+	build       compile packages and dependencies
+	clean       remove object files and cached files
+	doc         show documentation for package or symbol
+	env         print Go environment information
+	fix         update packages to use new APIs
+	fmt         gofmt (reformat) package sources
+	generate    generate Go files by processing source
+	get         add dependencies to current module and install them
+	install     compile and install packages and dependencies
+	list        list packages or modules
+	mod         module maintenance
+	work        workspace maintenance
+	run         compile and run Go program
+	test        test packages
+	tool        run specified go tool
+	version     print Go version
+	vet         report likely mistakes in packages
+Use "go help <command>" for more information about a command.
+Additional help topics:
+	buildconstraint build constraints
+	buildmode       build modes
+	c               calling between Go and C
+	cache           build and test caching
+	environment     environment variables
+	filetype        file types
+	go.mod          the go.mod file
+	gopath          GOPATH environment variable
+	gopath-get      legacy GOPATH go get
+	goproxy         module proxy protocol
+	importpath      import path syntax
+	modules         modules, module versions, and more
+	module-get      module-aware go get
+	module-auth     module authentication using go.sum
+	packages        package lists and patterns
+	private         configuration for downloading non-public code
+	testflag        testing flags
+	testfunc        testing functions
+	vcs             controlling version control with GOVCS
+Use "go help <topic>" for more information about that topic.
+```
 
 ## Basic structure
 
