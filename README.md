@@ -119,3 +119,14 @@ Package can be of two types.
 - *Executable package* – Only main is the executable package in GoLang. A .go file might belong to the main package present within a specific directory. We will see later how the directory name or the .go file name matters.  The main package will contain a main function that denotes the start of a program. On installing the main package it will create an executable in the $GOBIN directory.
 
 - *Utility package*– Any package other than the main package is a utility package. It is not self-executable. It just contains the utility function and other utility things that can be utilized by an executable package.
+
+## Advantages
+
+Golang has many advantages, including:
+Fast execution: Golang compiles directly to machine code, resulting in faster development and execution than other languages. 
+Concurrency: Golang's built-in support for concurrent programming allows developers to write efficient code that can handle thousands of concurrent connections. 
+Scalability: Golang's concurrent programming model makes it easy to create scalable applications. 
+Easy to learn: Golang's syntax is similar to C, and it has a smaller syntax and fewer features than many other programming languages. 
+Garbage collection: Golang's garbage collector automatically cleans up allocated memory space that is no longer needed. 
+Comprehensive tools: Golang comes with a set of tools that make coding easier for developers. 
+Active developer community: Golang has a large and growing community of developer
